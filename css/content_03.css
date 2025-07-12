@@ -1,0 +1,77 @@
+.sub__content__box {
+  display: flex;
+  gap: 50rem;
+}
+.sub__content__box .ceo {
+  display: flex;
+}
+.sub__content__box .txt {
+  display: flex;
+  flex-direction: column;
+  gap: 80rem;
+  justify-content: space-between;
+}
+.sub__content__box .txt img {
+  margin-top: 50rem;
+  width: 180px;
+}
+.sub__content__box .txt__copy {
+  display: flex;
+  gap: 20rem;
+  flex-direction: column;
+}
+.sub__content__box .txt__copy p {
+  line-height: 40rem;
+  font-size: var(--fs20);
+  font-weight: 500;
+}
+.sub__content__box .txt h1 {
+  font-size: var(--fs40);
+  font-weight: 700;
+  background: -webkit-linear-gradient(#43AE57, #37B389);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* common */
+.content_sub .content__sub_title {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.content_sub .content__sub_title .sub_title {
+  font-size: 32rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+
+.content_sub .content__sub_title .sub_title::before {
+  content: "";
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  background: #37B389;
+  color: var(--white);
+}
+
+.content_sub .content__sub_title .desc_title {
+  font-size: 18rem;
+  padding-left: 40rem;
+}
+
+/* sub03 - 1 */
+.s__content_board .content__board_announcement .content__board_announcement_image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .bbsList td[data-table="date"] {
+      width: 120rem;
+  }
+}
+/*# sourceMappingURL=content_03.css.map */

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 104.8 87.6" style="enable-background:new 0 0 104.8 87.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000016766658390050510910000004000400359300125100_);}
+	.st2{fill:url(#SVGID_00000182509905801006407140000011084911255291579023_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="69.8848" y1="63.5023" x2="69.8848" y2="-1.818989e-12">
+	<stop  offset="0" style="stop-color:#9EE1FE"/>
+	<stop  offset="1" style="stop-color:#62B6F5"/>
+</linearGradient>
+<path class="st0" d="M89.8,0H50c-8.3,0-15.1,6.7-15.1,15.1v20.4c0,8.3,6.7,15.1,15.1,15.1h27.6L91,62.7c2.5,2.3,6.4-0.5,5.1-3.6
+	l-3.7-8.8c7-1.3,12.4-7.4,12.4-14.8V15.1C104.8,6.7,98.1,0,89.8,0z"/>
+<linearGradient id="SVGID_00000015345445489221740030000015474793938068045499_" gradientUnits="userSpaceOnUse" x1="34.9399" y1="87.5893" x2="34.9399" y2="24.0859">
+	<stop  offset="0" style="stop-color:#E69434"/>
+	<stop  offset="0.9894" style="stop-color:#DD7142"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000015345445489221740030000015474793938068045499_);" d="M69.9,39.2v20.4c0,8.3-6.7,15.1-15.1,15.1
+	H27.3L13.8,86.8c-2.5,2.3-6.4-0.5-5.1-3.6l3.7-8.8C5.3,73.1,0,67,0,59.6V39.2c0-8.3,6.8-15.1,15.1-15.1h39.7
+	C63.1,24.1,69.9,30.8,69.9,39.2z"/>
+<linearGradient id="SVGID_00000029018649663824138900000014258576784634518956_" gradientUnits="userSpaceOnUse" x1="52.4099" y1="50.5558" x2="52.4099" y2="24.0859">
+	<stop  offset="0" style="stop-color:#F8E54B"/>
+	<stop  offset="0.9947" style="stop-color:#EBAF34"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000029018649663824138900000014258576784634518956_);" d="M69.9,39.2v11.4H50
+	c-8.3,0-15.1-6.8-15.1-15.1V24.1h19.9C63.1,24.1,69.9,30.8,69.9,39.2z"/>
+</svg>

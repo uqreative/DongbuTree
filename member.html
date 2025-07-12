@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KO웹 인도네시아</title>
+    <link rel="stylesheet" type="text/css" href="/css/css_reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/kolayout.min.css?v=1">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css?v=1">
+    <link rel="stylesheet" type="text/css" href="/css/content.css?v=1">
+    <link rel="stylesheet" type="text/css" href="/css/member.css?v=1">
+  </head>
+  <body>
+    <div class="wrap" id="top">
+      <div class="container is-fluid p-0">
+        <!-- header -->
+        <header id="header" class="header">
+          <div class="inr">
+            <nav class="navbar is-transparent " role="navigation" aria-label="main navigation">
+              <div class="navbar-brand">
+                <!-- logo -->
+                <a class="navbar-item logo" href="/">
+                  <svg width="647" height="250" id="ko_logo" data-name="ko logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250">
+                    <g>
+                      <path d="M163.68,41.58L123.57,1.89c-2.55-2.53-6.69-2.53-9.24,0L46.64,68.88l49.35,48.84,67.69-66.98c2.55-2.53,2.55-6.62,0-9.15Z" fill="#d61727"/>
+                      <path d="M178.41,199.27l-82.42-81.56-49.35,48.84,82.42,81.56c2.55,2.53,6.69,2.53,9.24,0l40.11-39.69c2.55-2.53,2.55-6.62,0-9.15Z" fill="#d61727"/>
+                      <path d="M46.64,68.88L1.91,113.14c-2.55,2.53-2.55,6.62,0,9.15l44.73,44.26,49.35-48.84-49.35-48.84Z" fill="#f06e36"/>
+                    </g>
+                    <path d="M357.69,120.49c2.86-5.11,4.29-11.09,4.29-17.93v-46.88c0-6.89-1.43-12.88-4.29-17.97-2.86-5.09-6.94-9-12.23-11.72-5.3-2.72-11.51-4.09-18.62-4.09s-13.32,1.36-18.62,4.09c-5.3,2.73-9.38,6.63-12.23,11.72-2.86,5.09-4.29,11.08-4.29,17.97v46.88c0,6.84,1.43,12.81,4.29,17.93,2.86,5.12,6.94,9.04,12.23,11.76,5.3,2.73,11.51,4.09,18.62,4.09s13.33-1.36,18.62-4.09c5.3-2.72,9.38-6.64,12.23-11.76ZM341.17,101.48c0,3.03-.57,5.66-1.71,7.87-1.14,2.21-2.81,3.91-4.99,5.09-2.18,1.18-4.73,1.77-7.64,1.77s-5.44-.59-7.6-1.77c-2.16-1.18-3.82-2.88-4.99-5.09-1.17-2.21-1.75-4.83-1.75-7.87v-44.8c0-2.98.58-5.58,1.75-7.79,1.17-2.21,2.83-3.92,4.99-5.13,2.15-1.21,4.69-1.81,7.6-1.81s5.45.6,7.64,1.81c2.18,1.21,3.84,2.92,4.99,5.13,1.14,2.21,1.71,4.81,1.71,7.79v44.8ZM257.07,68.83l31.5,66.34h-23.22l-20.37-46.08-12.44,20.86v25.22h-20.26V23.06h20.26v52.46l27.58-52.46h24.23l-27.3,45.78ZM501.69,135.18h-8.1V23.06h63.04v19.51h-42.78v27.22h36.55v19.35h-36.55v26.53h42.78v19.51h-54.93ZM482.68,23.06l-20.34,112.12h-19.25l-15.82-75.34-16.75,75.34h-19.32l-20.26-112.12h20.81l10.05,76.26,16.99-76.26h15.97l16.99,76.26,10.13-76.26h20.81ZM637.54,89.14c-1.64-3.24-4.01-5.87-7.13-7.9-3.12-2.03-6.86-3.33-11.22-3.89,4.05-.67,7.53-1.95,10.44-3.86,2.91-1.9,5.12-4.36,6.62-7.36,1.51-3.01,2.26-6.41,2.26-10.22v-6.09c0-5.65-1.14-10.47-3.43-14.46-2.29-3.98-5.62-7.03-10.01-9.14-4.39-2.11-9.7-3.16-15.94-3.16h-37.71v112.12h39.19c6.18,0,11.48-1.05,15.9-3.16,4.41-2.11,7.77-5.18,10.05-9.21,2.29-4.04,3.43-8.91,3.43-14.61v-7.79c0-4.27-.82-8.02-2.46-11.26ZM591.69,42.1h16.05c3.32,0,5.92.82,7.79,2.47,1.87,1.65,2.81,3.96,2.81,6.94v6.01c0,3.34-.92,5.91-2.77,7.71-1.84,1.8-4.45,2.7-7.83,2.7h-16.05v-25.83ZM619.58,105.8c0,3.24-1,5.76-3,7.56-2,1.8-4.82,2.7-8.46,2.7h-16.44v-29.07h16.29c2.44,0,4.55.44,6.31,1.31,1.77.87,3.09,2.13,3.97,3.78.88,1.65,1.32,3.65,1.32,6.01v7.71ZM212.29,154.49h9.98v72.86h-9.98v-72.86ZM271.94,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM328.85,156.9c-3.24-1.6-7.16-2.41-11.75-2.41h-21.27v72.86h21.22c4.59,0,8.51-.8,11.77-2.41,3.26-1.6,5.74-3.96,7.44-7.06,1.7-3.11,2.56-6.83,2.56-11.17v-31.57c0-4.37-.85-8.11-2.56-11.2-1.7-3.09-4.18-5.44-7.42-7.04ZM328.7,207c0,3.51-.98,6.21-2.94,8.12-1.96,1.9-4.74,2.86-8.35,2.86h-11.6v-54.12h11.6c3.61,0,6.4.95,8.35,2.86,1.96,1.9,2.94,4.61,2.94,8.12v32.17ZM383.26,156.47c-3.33-1.82-7.23-2.73-11.72-2.73s-8.4.91-11.72,2.73c-3.33,1.82-5.88,4.43-7.67,7.82-1.79,3.39-2.68,7.39-2.68,12v29.26c0,4.58.89,8.57,2.68,11.98,1.79,3.41,4.35,6.02,7.67,7.84,3.32,1.82,7.23,2.73,11.72,2.73s8.4-.91,11.72-2.73c3.32-1.82,5.88-4.43,7.67-7.84,1.79-3.41,2.68-7.4,2.68-11.98v-29.26c0-4.61-.89-8.61-2.68-12-1.79-3.39-4.35-6-7.67-7.82ZM383.48,205.85c0,2.57-.48,4.8-1.44,6.69-.96,1.89-2.35,3.34-4.15,4.36-1.81,1.02-3.92,1.53-6.35,1.53s-4.55-.51-6.35-1.53c-1.81-1.02-3.2-2.47-4.18-4.36-.98-1.89-1.47-4.12-1.47-6.69v-29.86c0-2.57.49-4.8,1.47-6.69.98-1.89,2.37-3.34,4.18-4.36,1.81-1.02,3.92-1.53,6.35-1.53s4.55.51,6.35,1.53c1.81,1.02,3.19,2.47,4.15,4.36.96,1.89,1.44,4.12,1.44,6.69v29.86ZM441.56,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM475.44,154.49h29.47v9.37h-29.47v22.65h25.42v9.32h-25.42v22.15h29.47v9.37h-39.44v-72.86h9.97ZM555.72,195.48c1.67,2.51,2.51,5.88,2.51,10.12v3.36c0,4.08-.88,7.54-2.63,10.4-1.76,2.86-4.3,5.03-7.65,6.51-3.34,1.49-7.38,2.23-12.1,2.23-3.92,0-7.4-.59-10.45-1.78-3.06-1.19-5.59-2.93-7.6-5.24-2.01-2.3-3.44-5.11-4.28-8.42l9.62-4.06c.88,3.24,2.41,5.72,4.61,7.44,2.19,1.72,4.89,2.58,8.1,2.58,3.95,0,7.01-.84,9.17-2.53,2.16-1.69,3.24-4.08,3.24-7.19v-3.21c0-2.17-.55-3.94-1.64-5.31-1.1-1.37-2.53-2.42-4.3-3.16-1.77-.73-4.08-1.5-6.91-2.3-.07-.03-.13-.06-.18-.08s-.11-.04-.18-.08l-.61-.15c-4.05-1.1-7.35-2.26-9.9-3.46-2.55-1.2-4.72-3.09-6.51-5.66-1.79-2.57-2.68-6.08-2.68-10.52v-2.15c0-4.04.85-7.49,2.56-10.35,1.7-2.86,4.19-5.03,7.47-6.51,3.27-1.49,7.24-2.23,11.9-2.23,3.44,0,6.51.57,9.19,1.7,2.68,1.14,4.94,2.81,6.76,5.01,1.82,2.21,3.17,4.9,4.05,8.07l-9.32,4.11c-.88-3.04-2.25-5.37-4.1-6.99-1.86-1.62-4.05-2.43-6.58-2.43-3.85,0-6.82.83-8.91,2.48s-3.14,4-3.14,7.04v2.31c0,2.2.59,3.99,1.77,5.36,1.18,1.37,2.65,2.42,4.41,3.16,1.75.73,4.17,1.54,7.24,2.4.17.03.32.08.46.12.14.05.27.09.41.13.17.03.32.08.45.12.14.05.29.09.46.12,3.75,1.1,6.82,2.26,9.22,3.46,2.4,1.2,4.43,3.06,6.1,5.56ZM569.26,154.49h9.97v72.86h-9.97v-72.86ZM609.11,154.49l-22.08,72.86h10.73l4.3-15.93h22.89l4.3,15.93h10.73l-22.08-72.86h-8.81ZM604.59,202.09l8.93-33.07,8.93,33.07h-17.86Z" fill="#202120"/>
+                  </svg>
+                </a>
+                <!-- logo -->
+              </div>
+              <!-- navbar main gnb -->
+              <div id="mGnb" class="navbar-menu">
+                <!-- main gnb menu -->
+                <div class="mnav navbar-start ml-auto is-size-6-mobile">
+                </div>
+                <!-- main gnb menu -->
+                <!-- navbar right element -->
+                <div class=" navbar-end ml-0">
+                  <a class="navbar-item search_icon has-text-centered">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3287/3287968.png" width="50%">
+                  </a>
+                  
+                  <a class="navbar-item close_icon has-text-centered">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" width="50%">
+                  </a>
+
+                  <div class="rnav navbar-end">
+                  </div>
+                  <div class="navbar-item">
+                    <div class="buttons rbutton">
+                    </div>
+                  </div>
+                  
+                  <!-- mobile burger menu -->
+                  <div role="button" class="navbar-burger mr-0" aria-label="menu" aria-expanded="false" data-target="fullmenu" style="display: flex;">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </div>
+                  <!-- mobile burger menu -->
+                  
+                </div>
+                <!-- navbar right element -->
+              </div>
+              <!-- navbar main gnb -->
+            </nav>
+          </div>
+        </header>
+        <!-- header -->
+        <!-- main content -->
+        <main class="content member">
+        <!-- section start -->
+            <section class="content__bg bg1">
+                <div class="inr">
+                  <div class="content__info">
+                    <div class="columns">
+                      <div class="column is-flex is-flex-wrap-nowrap is-flex-direction-column is-align-content-center">
+                          <h1 class="pg-title title has-text-dark is-size-1"></h1>
+                          <h3 class="pg-subtitle subtitle has-text-dark mt-0"></h1>
+                      </div>
+                      <div class="column is-flex is-flex-wrap-nowrap is-flex-direction-column is-justify-content-center">
+                        <nav class="breadcrumb has-arrow-separator has-text-right" aria-label="breadcrumbs">
+                          <ul class="brc is-justify-content-flex-end has-text-dark">
+                            <li class="mt-1"><a class="home" href="/"><i class="ph ph-house"></i></a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!-- <section class="lnb__box has-background-black-ter">
+              <div class="lnb__bar navbar-start ml-auto has-text-light">
+
+              </div>
+            </section> -->
+            <section class="content__01  member">
+              <div class="inr">
+                <div class="container is-fluid p-0">
+                  <!-- <div class="columns">
+                    <div class="column is-full has-text-centered py-6">
+                        <h1 class="main__title is-size-1 has-text-primary mb-0"></h1>
+                        <h2 class="main__subtitle has-text-grey-light mt-0"></h2>
+                        <p class="subtitle"></p>
+                    </div>
+                  </div> -->
+                  <div class="columns">
+                    <div class="column is-full has-text-centered mx-auto py-6  member__agree">
+                      <!-- agree box -->
+                        <div class="member__login__box has-text-centered">
+                            <h1 class="title is-size-3 has-text-centered has-text-black-ter">회원가입</h1>
+                            <h2 class="title is-size-6 has-text-centered has-text-weight-normal">회원가입에 필요한 정보를 입력해주세요.</h2>
+                            <div class="columns">
+                                <div class="column is-two-thirds mx-auto">
+                                    <form action="">
+                                        <div class="box has-text-left">
+                                            <!-- register -->
+                                            <h3 class="title is-size-5 first is-flex">필수입력사항</h1>
+                                            <div class="columns">
+                                                <div class="field column is-half">
+                                                    <label class="label is-required">회원아이디</label>
+                                                    <div class="field is-grouped mb-0">
+                                                        <p class="control is-expanded mb-0">
+                                                            <input class="input" type="text" placeholder="회원아이디">
+                                                        </p>
+                                                        <p class="control">
+                                                            <button class="button is-light">
+                                                            중복확인
+                                                            </button>
+                                                        </p>
+                                                    </div>
+                                                    <p class="help is-dark">아이디는 4~20자 사이로 입력해 주세요.</p>
+                                                </div>
+                                                <div class="field column is-half">
+                                                    <label class="label is-required">이름</label>
+                                                    <div class="control has-icons-left">
+                                                        <input class="input " type="text" placeholder="이름" value="">
+                                                        <span class="icon is-small is-left">
+                                                            <i class="ph-fill ph-user"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="columns">
+                                                <div class="field  column is-half">
+                                                    <label class="label is-required">비밀번호</label>
+                                                    <div class="control has-icons-left">
+                                                        <input class="input" type="password" placeholder="비밀번호" value="">
+                                                        <span class="icon is-small is-left">
+                                                            <i class="ph-fill ph-password"></i>
+                                                        </span>
+                                                    </div>
+                                                    <p class="help">비밀번호는 8~12자 사이의 영문, 특수문자(~!@\#$%^*\()\-=+_'), 숫자 조합 형태로 입력해 주세요.</p>
+                                                </div>
+
+                                                <div class="field  column is-half">
+                                                    <label class="label is-required">비밀번호확인</label>
+                                                    <div class="control has-icons-left">
+                                                        <input class="input" type="password" placeholder="비밀번호" value="">
+                                                        <span class="icon is-small is-left">
+                                                            <i class="ph-fill ph-password"></i>
+                                                        </span>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                            <div class="columns">
+                                                <div class="field  column">
+                                                    <label class="label is-required">이메일</label>
+                                                    <div class="field is-grouped">
+                                                      <p class="control mb-0 is-expanded">
+                                                          <input class="input" type="email" placeholder="이메일">
+                                                      </p>
+                                                      <p class="mt-2">@</p>
+                                                      <div class="control">
+                                                        <div class="select">
+                                                          <select>
+                                                            <option value="">선택하세요</option>
+                                                            <option value="naver.com">naver.com</option>
+                                                            <option value="daum.net">daum.net</option>
+                                                            <option value="hanmail.net">hanmail.net</option>
+                                                            <option value="hotmail.com">hotmail.com</option>
+                                                            <option value="gmail.com">gmail.com</option>
+                                                            <option value="other">직접입력</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                      <p class="control mb-0 is-expanded">
+                                                          <input class="input" type="emailadd" placeholder="이메일" disabled>
+                                                      </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="columns">
+                                              <div class="field  column is-half">
+                                                <label class="label is-required">연락처</label>
+                                                <div class="field is-grouped mb-0">
+                                                  <div class="control">
+                                                    <div class="select">
+                                                        <select name="phone" title="연락처 첫번째 자릿수">
+                                                          <option value="010">010</option>
+                                                            <option value="011">011</option>
+                                                            <option value="016">016</option>
+                                                            <option value="017">017</option>
+                                                            <option value="018">018</option>
+                                                            <option value="019">019</option>
+                                                        </select>
+                                                    </div>
+                                                  </div>
+                                                  <p class="mt-2">-</p>
+                                                  <div class="control is-expanded">
+                                                      <input class="input" type="phone" placeholder="비밀번호" value="">
+                                                  </div>
+                                                  <p class="mt-2">-</p>
+                                                  <div class="control is-expanded">
+                                                      <input class="input" type="phone" placeholder="비밀번호" value="">
+                                                  </div>
+                                                </div>
+                                                <p class="help">해당 연락처는 아이디 비밀번호 찾기시 이용합니다.</p>
+                                              </div>
+                                              <div class="field  column is-half">
+                                                <label class="label is-required">생년월일</label>
+                                                <div class="control has-icons-right">
+                                                    <input class="input" type="text" placeholder="비밀번호" value="">
+                                                    <span class="icon is-small is-right">
+                                                      <i class="ph-fill ph-calendar-dots"></i>
+                                                    </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                            <h3 class="title is-size-5 second is-flex">선택입력사항</h1>
+                                              <div class="field">
+                                                <label class="label">성별</label>
+                                                <div class="control">
+                                                  <label class="radio">
+                                                    <input type="radio" name="gender">
+                                                    남성
+                                                  </label>
+                                                  <label class="radio">
+                                                    <input type="radio" name="gender">
+                                                    여성
+                                                  </label>
+                                                </div>
+                                              </div>
+                                              <div class="columns mb-0">
+                                                <div class="column is-full">
+                                                  <label class="label">주소</label>
+                                                  <div class="columns mb-0">
+                                                    <div class="field column is-half  mb-0">
+                                                      <div class="field is-grouped">
+                                                        <p class="control mb-0 is-expanded">
+                                                            <input class="input" type="text" placeholder="우편번호검색">
+                                                        </p>
+                                                        <p class="control">
+                                                          <button class="button is-light">
+                                                            우편번호검색
+                                                          </button>
+                                                        </p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="field column is-half">
+                                                      <div class="control is-expanded">
+                                                        <input class="input " type="text" placeholder="" value="" disabled>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="columns">
+                                                <div class="field column is-full">
+                                                  <div class="control">
+                                                    <input class="input " type="text" placeholder="" value="">
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="columns mt-6 has-text-centered">
+                                                <div class="field column is-flex is-flex-direction-column is-3 mx-auto">
+                                                  <div class="control">
+                                                    <button class="button is-large is-fullwidth is-dark is-radiusless is-size-6 px-6 py-4 has-text-light">회원가입</button>
+                                                  </div>
+                                                  <a href="/" class="is-link has-text-weight-bold">메인으로</a>
+                                                </div>
+                                              </div>
+
+                                            <!-- <div class="field is-grouped has-text-center is-full">
+                                              <div class="control">
+                                                <button class="button is-link">Submit</button>
+                                              </div>
+                                              <div class="control">
+                                                <button class="button is-link is-light">Cancel</button>
+                                              </div>
+                                            </div> -->
+                                            <!-- register -->
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                      <!-- agree box -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        <!-- section end -->
+        </main>
+        <!-- main content -->
+        <footer class="footer has-background-black-ter p-0">
+          <div class="footer__nav has-background-grey-darker">
+            <div class="inr">
+              <div id="fnb" class="navbar-menu">
+                <div class="fnav navbar-start has-text-light">
+
+                </div>
+                <div class="navbar-end">
+                  <div class="dropdown mt-4">
+                    <div class="dropdown-trigger">
+                      <button class="button is-light is-outlined" aria-haspopup="true" aria-controls="family-site">
+                        <span>Family Site</span>
+                        <span class="icon is-small">
+                          <i class="ph ph-caret-down"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="dropdown-menu" id="family-site" role="menu">
+                      <div class="dropdown-content">
+                        <a href="#" class="dropdown-item"> 사이트 1 </a>
+                        <a href="#" class="dropdown-item"> 사이트 2 </a>
+                        <a href="#" class="dropdown-item"> 사이트 3 </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="inr">
+            <div class="container is-fluid p-0">
+              <div class="footer__info">
+                <div class="columns">
+                  <div class="column is-three-fifths">
+                    <ul class="footer__info__txt">
+    
+                    </ul>
+                    <div class="footer__copy mt-5">
+      
+                    </div>
+                  </div>
+                  <div class="column auto is-flex is-flex-wrap-nowrap is-justify-content-flex-end is-align-content-center">
+                    <div class="footer__logo">
+                      <svg id="ko_logo_footer" data-name="ko logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250">
+                        <path d="M163.68,41.58L123.57,1.89c-2.55-2.53-6.69-2.53-9.24,0L46.64,68.88l49.35,48.84,67.69-66.98c2.55-2.53,2.55-6.62,0-9.15Z" style="fill: #6d6e71; stroke-width: 0px;"/>
+                        <path d="M178.41,199.27l-82.42-81.56-49.35,48.84,82.42,81.56c2.55,2.53,6.69,2.53,9.24,0l40.11-39.69c2.55-2.53,2.55-6.62,0-9.15Z" style="fill: #6d6e71; stroke-width: 0px;"/>
+                        <path d="M46.64,68.88L1.91,113.14c-2.55,2.53-2.55,6.62,0,9.15l44.73,44.26,49.35-48.84-49.35-48.84Z" style="fill: #939598; stroke-width: 0px;"/>
+                        <path d="M357.69,120.49c2.86-5.11,4.29-11.09,4.29-17.93v-46.88c0-6.89-1.43-12.88-4.29-17.97-2.86-5.09-6.94-9-12.23-11.72-5.3-2.72-11.51-4.09-18.62-4.09s-13.32,1.36-18.62,4.09c-5.3,2.73-9.38,6.63-12.23,11.72-2.86,5.09-4.29,11.08-4.29,17.97v46.88c0,6.84,1.43,12.81,4.29,17.93,2.86,5.12,6.94,9.04,12.23,11.76,5.3,2.73,11.51,4.09,18.62,4.09s13.33-1.36,18.62-4.09c5.3-2.72,9.38-6.64,12.23-11.76ZM341.17,101.48c0,3.03-.57,5.66-1.71,7.87-1.14,2.21-2.81,3.91-4.99,5.09-2.18,1.18-4.73,1.77-7.64,1.77s-5.44-.59-7.6-1.77c-2.16-1.18-3.82-2.88-4.99-5.09-1.17-2.21-1.75-4.83-1.75-7.87v-44.8c0-2.98.58-5.58,1.75-7.79,1.17-2.21,2.83-3.92,4.99-5.13,2.15-1.21,4.69-1.81,7.6-1.81s5.45.6,7.64,1.81c2.18,1.21,3.84,2.92,4.99,5.13,1.14,2.21,1.71,4.81,1.71,7.79v44.8ZM257.07,68.83l31.5,66.34h-23.22l-20.37-46.08-12.44,20.86v25.22h-20.26V23.06h20.26v52.46l27.58-52.46h24.23l-27.3,45.78ZM501.69,135.18h-8.1V23.06h63.04v19.51h-42.78v27.22h36.55v19.35h-36.55v26.53h42.78v19.51h-54.93ZM482.68,23.06l-20.34,112.12h-19.25l-15.82-75.34-16.75,75.34h-19.32l-20.26-112.12h20.81l10.05,76.26,16.99-76.26h15.97l16.99,76.26,10.13-76.26h20.81ZM637.54,89.14c-1.64-3.24-4.01-5.87-7.13-7.9-3.12-2.03-6.86-3.33-11.22-3.89,4.05-.67,7.53-1.95,10.44-3.86,2.91-1.9,5.12-4.36,6.62-7.36,1.51-3.01,2.26-6.41,2.26-10.22v-6.09c0-5.65-1.14-10.47-3.43-14.46-2.29-3.98-5.62-7.03-10.01-9.14-4.39-2.11-9.7-3.16-15.94-3.16h-37.71v112.12h39.19c6.18,0,11.48-1.05,15.9-3.16,4.41-2.11,7.77-5.18,10.05-9.21,2.29-4.04,3.43-8.91,3.43-14.61v-7.79c0-4.27-.82-8.02-2.46-11.26ZM591.69,42.1h16.05c3.32,0,5.92.82,7.79,2.47,1.87,1.65,2.81,3.96,2.81,6.94v6.01c0,3.34-.92,5.91-2.77,7.71-1.84,1.8-4.45,2.7-7.83,2.7h-16.05v-25.83ZM619.58,105.8c0,3.24-1,5.76-3,7.56-2,1.8-4.82,2.7-8.46,2.7h-16.44v-29.07h16.29c2.44,0,4.55.44,6.31,1.31,1.77.87,3.09,2.13,3.97,3.78.88,1.65,1.32,3.65,1.32,6.01v7.71ZM212.29,154.49h9.98v72.86h-9.98v-72.86ZM271.94,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM328.85,156.9c-3.24-1.6-7.16-2.41-11.75-2.41h-21.27v72.86h21.22c4.59,0,8.51-.8,11.77-2.41,3.26-1.6,5.74-3.96,7.44-7.06,1.7-3.11,2.56-6.83,2.56-11.17v-31.57c0-4.37-.85-8.11-2.56-11.2-1.7-3.09-4.18-5.44-7.42-7.04ZM328.7,207c0,3.51-.98,6.21-2.94,8.12-1.96,1.9-4.74,2.86-8.35,2.86h-11.6v-54.12h11.6c3.61,0,6.4.95,8.35,2.86,1.96,1.9,2.94,4.61,2.94,8.12v32.17ZM383.26,156.47c-3.33-1.82-7.23-2.73-11.72-2.73s-8.4.91-11.72,2.73c-3.33,1.82-5.88,4.43-7.67,7.82-1.79,3.39-2.68,7.39-2.68,12v29.26c0,4.58.89,8.57,2.68,11.98,1.79,3.41,4.35,6.02,7.67,7.84,3.32,1.82,7.23,2.73,11.72,2.73s8.4-.91,11.72-2.73c3.32-1.82,5.88-4.43,7.67-7.84,1.79-3.41,2.68-7.4,2.68-11.98v-29.26c0-4.61-.89-8.61-2.68-12-1.79-3.39-4.35-6-7.67-7.82ZM383.48,205.85c0,2.57-.48,4.8-1.44,6.69-.96,1.89-2.35,3.34-4.15,4.36-1.81,1.02-3.92,1.53-6.35,1.53s-4.55-.51-6.35-1.53c-1.81-1.02-3.2-2.47-4.18-4.36-.98-1.89-1.47-4.12-1.47-6.69v-29.86c0-2.57.49-4.8,1.47-6.69.98-1.89,2.37-3.34,4.18-4.36,1.81-1.02,3.92-1.53,6.35-1.53s4.55.51,6.35,1.53c1.81,1.02,3.19,2.47,4.15,4.36.96,1.89,1.44,4.12,1.44,6.69v29.86ZM441.56,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM475.44,154.49h29.47v9.37h-29.47v22.65h25.42v9.32h-25.42v22.15h29.47v9.37h-39.44v-72.86h9.97ZM555.72,195.48c1.67,2.51,2.51,5.88,2.51,10.12v3.36c0,4.08-.88,7.54-2.63,10.4-1.76,2.86-4.3,5.03-7.65,6.51-3.34,1.49-7.38,2.23-12.1,2.23-3.92,0-7.4-.59-10.45-1.78-3.06-1.19-5.59-2.93-7.6-5.24-2.01-2.3-3.44-5.11-4.28-8.42l9.62-4.06c.88,3.24,2.41,5.72,4.61,7.44,2.19,1.72,4.89,2.58,8.1,2.58,3.95,0,7.01-.84,9.17-2.53,2.16-1.69,3.24-4.08,3.24-7.19v-3.21c0-2.17-.55-3.94-1.64-5.31-1.1-1.37-2.53-2.42-4.3-3.16-1.77-.73-4.08-1.5-6.91-2.3-.07-.03-.13-.06-.18-.08s-.11-.04-.18-.08l-.61-.15c-4.05-1.1-7.35-2.26-9.9-3.46-2.55-1.2-4.72-3.09-6.51-5.66-1.79-2.57-2.68-6.08-2.68-10.52v-2.15c0-4.04.85-7.49,2.56-10.35,1.7-2.86,4.19-5.03,7.47-6.51,3.27-1.49,7.24-2.23,11.9-2.23,3.44,0,6.51.57,9.19,1.7,2.68,1.14,4.94,2.81,6.76,5.01,1.82,2.21,3.17,4.9,4.05,8.07l-9.32,4.11c-.88-3.04-2.25-5.37-4.1-6.99-1.86-1.62-4.05-2.43-6.58-2.43-3.85,0-6.82.83-8.91,2.48s-3.14,4-3.14,7.04v2.31c0,2.2.59,3.99,1.77,5.36,1.18,1.37,2.65,2.42,4.41,3.16,1.75.73,4.17,1.54,7.24,2.4.17.03.32.08.46.12.14.05.27.09.41.13.17.03.32.08.45.12.14.05.29.09.46.12,3.75,1.1,6.82,2.26,9.22,3.46,2.4,1.2,4.43,3.06,6.1,5.56ZM569.26,154.49h9.97v72.86h-9.97v-72.86ZM609.11,154.49l-22.08,72.86h10.73l4.3-15.93h22.89l4.3,15.93h10.73l-22.08-72.86h-8.81ZM604.59,202.09l8.93-33.07,8.93,33.07h-17.86Z" style="fill: #6d6e71; stroke-width: 0px;"/>
+                      </svg>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- End -->
+    <!-- Search -->
+    <div class="search" id="search">
+      <div class="container is-fluid p-0">
+        <div class="search__container">
+          <div class="inr">
+            <div class="block p-6">
+              <h1 class="title  is-size-1 has-text-black has-text-centered">통합검색</h1>
+              <div class="search__box">
+                <div class="field is-grouped">
+                  <p class="control is-expanded has-icons-left">
+                    <input class="input is-large is-radiusless" type="text" placeholder="검색어를 입력하세요.">
+                    <span class="icon is-medium is-left">
+                      <i class="ph ph-magnifying-glass"></i>
+                    </span>
+                  </p>
+                  <p class="control">
+                    <button class="button is-primary is-large is-radiusless">
+                      Search
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Search -->
+    <!-- Full menu -->
+    <div class="fullmenu" id="fullmenu">
+      <div class="container is-fluid p-0">
+        <div class="fullmenu__container">
+          <div id="head" class="headers">
+            <div class="inr">
+              <nav class="navbar is-transparent " role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <!-- logo -->
+                  <a class="navbar-item logo p-0" href="/">
+                    <svg width="647" height="250" id="ko_logo" data-name="ko logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250">
+                      <g>
+                        <path d="M163.68,41.58L123.57,1.89c-2.55-2.53-6.69-2.53-9.24,0L46.64,68.88l49.35,48.84,67.69-66.98c2.55-2.53,2.55-6.62,0-9.15Z" fill="#d61727"/>
+                        <path d="M178.41,199.27l-82.42-81.56-49.35,48.84,82.42,81.56c2.55,2.53,6.69,2.53,9.24,0l40.11-39.69c2.55-2.53,2.55-6.62,0-9.15Z" fill="#d61727"/>
+                        <path d="M46.64,68.88L1.91,113.14c-2.55,2.53-2.55,6.62,0,9.15l44.73,44.26,49.35-48.84-49.35-48.84Z" fill="#f06e36"/>
+                      </g>
+                      <path d="M357.69,120.49c2.86-5.11,4.29-11.09,4.29-17.93v-46.88c0-6.89-1.43-12.88-4.29-17.97-2.86-5.09-6.94-9-12.23-11.72-5.3-2.72-11.51-4.09-18.62-4.09s-13.32,1.36-18.62,4.09c-5.3,2.73-9.38,6.63-12.23,11.72-2.86,5.09-4.29,11.08-4.29,17.97v46.88c0,6.84,1.43,12.81,4.29,17.93,2.86,5.12,6.94,9.04,12.23,11.76,5.3,2.73,11.51,4.09,18.62,4.09s13.33-1.36,18.62-4.09c5.3-2.72,9.38-6.64,12.23-11.76ZM341.17,101.48c0,3.03-.57,5.66-1.71,7.87-1.14,2.21-2.81,3.91-4.99,5.09-2.18,1.18-4.73,1.77-7.64,1.77s-5.44-.59-7.6-1.77c-2.16-1.18-3.82-2.88-4.99-5.09-1.17-2.21-1.75-4.83-1.75-7.87v-44.8c0-2.98.58-5.58,1.75-7.79,1.17-2.21,2.83-3.92,4.99-5.13,2.15-1.21,4.69-1.81,7.6-1.81s5.45.6,7.64,1.81c2.18,1.21,3.84,2.92,4.99,5.13,1.14,2.21,1.71,4.81,1.71,7.79v44.8ZM257.07,68.83l31.5,66.34h-23.22l-20.37-46.08-12.44,20.86v25.22h-20.26V23.06h20.26v52.46l27.58-52.46h24.23l-27.3,45.78ZM501.69,135.18h-8.1V23.06h63.04v19.51h-42.78v27.22h36.55v19.35h-36.55v26.53h42.78v19.51h-54.93ZM482.68,23.06l-20.34,112.12h-19.25l-15.82-75.34-16.75,75.34h-19.32l-20.26-112.12h20.81l10.05,76.26,16.99-76.26h15.97l16.99,76.26,10.13-76.26h20.81ZM637.54,89.14c-1.64-3.24-4.01-5.87-7.13-7.9-3.12-2.03-6.86-3.33-11.22-3.89,4.05-.67,7.53-1.95,10.44-3.86,2.91-1.9,5.12-4.36,6.62-7.36,1.51-3.01,2.26-6.41,2.26-10.22v-6.09c0-5.65-1.14-10.47-3.43-14.46-2.29-3.98-5.62-7.03-10.01-9.14-4.39-2.11-9.7-3.16-15.94-3.16h-37.71v112.12h39.19c6.18,0,11.48-1.05,15.9-3.16,4.41-2.11,7.77-5.18,10.05-9.21,2.29-4.04,3.43-8.91,3.43-14.61v-7.79c0-4.27-.82-8.02-2.46-11.26ZM591.69,42.1h16.05c3.32,0,5.92.82,7.79,2.47,1.87,1.65,2.81,3.96,2.81,6.94v6.01c0,3.34-.92,5.91-2.77,7.71-1.84,1.8-4.45,2.7-7.83,2.7h-16.05v-25.83ZM619.58,105.8c0,3.24-1,5.76-3,7.56-2,1.8-4.82,2.7-8.46,2.7h-16.44v-29.07h16.29c2.44,0,4.55.44,6.31,1.31,1.77.87,3.09,2.13,3.97,3.78.88,1.65,1.32,3.65,1.32,6.01v7.71ZM212.29,154.49h9.98v72.86h-9.98v-72.86ZM271.94,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM328.85,156.9c-3.24-1.6-7.16-2.41-11.75-2.41h-21.27v72.86h21.22c4.59,0,8.51-.8,11.77-2.41,3.26-1.6,5.74-3.96,7.44-7.06,1.7-3.11,2.56-6.83,2.56-11.17v-31.57c0-4.37-.85-8.11-2.56-11.2-1.7-3.09-4.18-5.44-7.42-7.04ZM328.7,207c0,3.51-.98,6.21-2.94,8.12-1.96,1.9-4.74,2.86-8.35,2.86h-11.6v-54.12h11.6c3.61,0,6.4.95,8.35,2.86,1.96,1.9,2.94,4.61,2.94,8.12v32.17ZM383.26,156.47c-3.33-1.82-7.23-2.73-11.72-2.73s-8.4.91-11.72,2.73c-3.33,1.82-5.88,4.43-7.67,7.82-1.79,3.39-2.68,7.39-2.68,12v29.26c0,4.58.89,8.57,2.68,11.98,1.79,3.41,4.35,6.02,7.67,7.84,3.32,1.82,7.23,2.73,11.72,2.73s8.4-.91,11.72-2.73c3.32-1.82,5.88-4.43,7.67-7.84,1.79-3.41,2.68-7.4,2.68-11.98v-29.26c0-4.61-.89-8.61-2.68-12-1.79-3.39-4.35-6-7.67-7.82ZM383.48,205.85c0,2.57-.48,4.8-1.44,6.69-.96,1.89-2.35,3.34-4.15,4.36-1.81,1.02-3.92,1.53-6.35,1.53s-4.55-.51-6.35-1.53c-1.81-1.02-3.2-2.47-4.18-4.36-.98-1.89-1.47-4.12-1.47-6.69v-29.86c0-2.57.49-4.8,1.47-6.69.98-1.89,2.37-3.34,4.18-4.36,1.81-1.02,3.92-1.53,6.35-1.53s4.55.51,6.35,1.53c1.81,1.02,3.19,2.47,4.15,4.36.96,1.89,1.44,4.12,1.44,6.69v29.86ZM441.56,154.49h9.72v72.81h-9.01l-26.58-52.09v52.09h-9.67v-72.81h8.86l26.68,53.24v-53.24ZM475.44,154.49h29.47v9.37h-29.47v22.65h25.42v9.32h-25.42v22.15h29.47v9.37h-39.44v-72.86h9.97ZM555.72,195.48c1.67,2.51,2.51,5.88,2.51,10.12v3.36c0,4.08-.88,7.54-2.63,10.4-1.76,2.86-4.3,5.03-7.65,6.51-3.34,1.49-7.38,2.23-12.1,2.23-3.92,0-7.4-.59-10.45-1.78-3.06-1.19-5.59-2.93-7.6-5.24-2.01-2.3-3.44-5.11-4.28-8.42l9.62-4.06c.88,3.24,2.41,5.72,4.61,7.44,2.19,1.72,4.89,2.58,8.1,2.58,3.95,0,7.01-.84,9.17-2.53,2.16-1.69,3.24-4.08,3.24-7.19v-3.21c0-2.17-.55-3.94-1.64-5.31-1.1-1.37-2.53-2.42-4.3-3.16-1.77-.73-4.08-1.5-6.91-2.3-.07-.03-.13-.06-.18-.08s-.11-.04-.18-.08l-.61-.15c-4.05-1.1-7.35-2.26-9.9-3.46-2.55-1.2-4.72-3.09-6.51-5.66-1.79-2.57-2.68-6.08-2.68-10.52v-2.15c0-4.04.85-7.49,2.56-10.35,1.7-2.86,4.19-5.03,7.47-6.51,3.27-1.49,7.24-2.23,11.9-2.23,3.44,0,6.51.57,9.19,1.7,2.68,1.14,4.94,2.81,6.76,5.01,1.82,2.21,3.17,4.9,4.05,8.07l-9.32,4.11c-.88-3.04-2.25-5.37-4.1-6.99-1.86-1.62-4.05-2.43-6.58-2.43-3.85,0-6.82.83-8.91,2.48s-3.14,4-3.14,7.04v2.31c0,2.2.59,3.99,1.77,5.36,1.18,1.37,2.65,2.42,4.41,3.16,1.75.73,4.17,1.54,7.24,2.4.17.03.32.08.46.12.14.05.27.09.41.13.17.03.32.08.45.12.14.05.29.09.46.12,3.75,1.1,6.82,2.26,9.22,3.46,2.4,1.2,4.43,3.06,6.1,5.56ZM569.26,154.49h9.97v72.86h-9.97v-72.86ZM609.11,154.49l-22.08,72.86h10.73l4.3-15.93h22.89l4.3,15.93h10.73l-22.08-72.86h-8.81ZM604.59,202.09l8.93-33.07,8.93,33.07h-17.86Z" fill="#fafafa"/>
+                    </svg>
+                  </a>
+                  <!-- logo -->
+                </div>
+                <!-- navbar main gnb -->
+                <div class="navbar-menu">
+                  <!-- navbar right element -->
+                  <div class=" navbar-end ml-auto">
+                    
+                    <!-- mobile burger menu -->
+                    <div role="button" class="is-black navbar-burger mr-0 is-active" aria-label="menu" aria-expanded="false" data-target="fullmenu" style="display: flex;">
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                    </div>
+                    <!-- mobile burger menu -->
+                    
+                  </div>
+                  <!-- navbar right element -->
+                </div>
+                <!-- navbar main gnb -->
+              </nav>
+            </div>
+          </div>
+          <div class="fullmenu__content">
+            <div class="inr">
+              <div class="block p-6">
+                <ul class="fgnb has-text-light">
+  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Full menu -->
+
+    <!-- Quickmenu -->
+    <div class="quickMenu">
+      <div class="product has-background-warning">
+        <i class="ph ph-file-magnifying-glass"></i>
+        <span class="txt">제품검색</span>
+      </div>
+      <div class="chat has-background-warning">
+        <i class="ph ph-chat-circle-dots"></i>
+        <span class="txt">문의하기</span>
+      </div>
+    </div>
+    <!-- Quickmenu -->
+    <!-- Backtop -->
+    <div class="backTop has-background-primary">
+      <i class="ph ph-arrow-line-up"></i>
+    </div>
+    <!-- Backtop -->
+    <!-- Popup -->
+    <div class="popup" id="popup">
+      <span class="icon has-background-light is-clickable is-large" id="close">
+        <i class="ph ph-x is-size-3 has-text-primary"></i>
+      </span>
+      <img id="popupImg" src="" alt="Fullsize Image">
+    </div>
+    <!-- Popup -->
+    <script src="/js/vendor/jquery-3.7.1.min.js"></script>
+    <!-- <script type="text/javascript" src="/js/vendor/jquery-migrate-1.2.1.min.js"></script> -->
+    <script src="/js/vendor/gsap.js"></script>
+    <script src="/js/vendor/ScrollTrigger.js"></script>
+    <!-- <script src="/js/vendor/ScrollSmoother.js"></script> -->
+    <script src="/js/vendor/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
+		<script src="/js/custom.js?v=1"></script>
+		<script src="/js/nav.js?v=1"></script>
+    <script>var jsonName = '/static/data.json';</script>
+
+		<script src="/js/sub_nav.js?v=1"></script>
+  </body>
+</html>

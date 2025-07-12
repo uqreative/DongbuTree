@@ -1,0 +1,48 @@
+
+/* login */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/images/BG.jpg'); /* Ganti dengan path gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Warna teks */
+    text-align: center;
+    height: 100vh; /* Untuk memenuhi tinggi layar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /* Menjadikan posisi relatif untuk konten yang ada di dalamnya */
+}
+/* login */
+h1.logo{width:80rem; height:80rem; margin:0 auto; background:url(/images/logo.svg) no-repeat 50% 50%; background-size:100% auto; font-size:0;}
+h1.logo a{display:block; height:100%;}
+
+#container-login{display:flex; align-items:center; justify-content:center; width:100%; height:100vh; min-height:830rem;}
+#container-login .login-area{position:relative; width:520rem; height:680rem; box-sizing:border-box; padding:60rem; background-color:white; border-radius:30rem;}
+#container-login #footer{margin-top:30rem; color:var(--color-white); text-align:center; font-size:15rem;}
+.login-area form{display:flex; flex-direction:column; gap:20rem 0; margin-top:40rem;} 
+.login-area .designValue{display:flex; flex-direction:column; gap:20rem 0;}
+.login-area .designValue label{display:none;}
+.login-area .designValue input{width:100%; height:65rem; box-sizing:border-box; padding-left:60rem; background:#f3f3f3; border-radius:50rem; border-width:0; font-family:var(--font-eng); font-weight:700; font-size:18rem;}
+.login-area .designValue input::placeholder{font-size:14rem; color:#a5a5a5;} 
+.login-area .btn_login{height:65rem; box-sizing:border-box; background-color:#111; border-width:0; border-radius:50rem; font-family:var(--font-eng); font-weight:600; font-size:20rem; color:var(--color-white); letter-spacing:1rem; transition:0.3s ease; transition-property:background, box-shadow;}
+.login-area .btn_login:hover{background-color:#095fca; box-shadow:0 10rem 20rem rgba(0,0,0,0.2);}
+.login-area .btn_area.social a{font-size:15rem; color:#666;}
+.login-area .btn_area.social a:before{margin:0 12rem;}
+.login-area .btn_area.social a.btn-join{color:#095fca;}
+.login-area .ip-info{display:flex; justify-content:center; align-items:center; gap:0 10rem; position:absolute; left:0; bottom:0; width:100%; min-height:60rem; box-sizing:border-box; padding:5rem 10rem; border-top:1rem solid #e7e7e7; font-size:15rem; font-weight:500; color:#999;}
+.bg-login{--sizeHig:830rem; overflow:hidden; position:absolute; top:0; left:0; z-index:-1; width:100%; height:100%; min-height:var(--sizeHig);}
+.bg-login__list .img{display:block; height:100vh; min-height:var(--sizeHig); transform:scale(1.07); transition:transform 10s ease-out;}
+.bg-login__list .img img{object-fit:cover; width:100%; height:100%;}
+.bg-login__list .active .img,
+.bg-login__list .swiper-slide-duplicate-active .img{transform:scale(1);}
+
+/* find id & pw */
+.mainSection{ display: flex; align-items: center; justify-content: center; }
+.findIdArea, .findPwArea{ position: relative; width: auto; height: auto; box-sizing: border-box; padding: 20rem 60rem; background-color: var(--color-white); border-radius: 30rem;}
+#idFound{ display: flex; align-items: center; width: 100%; justify-content: center; flex-direction: column; }
+#idFound .resultContainer {background: #FFFFFF; padding: 3em 5em 0 5em; width: 80%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.findIdArea input, .findPwArea input { width: 100%; height: 65rem; box-sizing: border-box; text-align: center; background: #f3f3f3; border-radius: 50rem; border-width: 0; font-family: var(--font-eng); font-weight: 700; font-size: 18rem;}
+.findIdArea .btn-area button, .findIdArea .btn-area a, .findPwArea .btn-area button, .findPwArea .btn-area a, .join_area .btn-area{height: 65rem; box-sizing: border-box; background-color: #111; border-width: 0; border-radius: 50rem; font-family: var(--font-eng); font-weight: 600; font-size: 20rem; color: var(--color-white); letter-spacing: 1rem; transition: 0.3s ease; transition-property: background, box-shadow;}

@@ -1,0 +1,10 @@
+.layerPop{position:absolute; z-index:90; overflow:hidden; border:1px solid #353535; border-radius:14px; z-index:10;}
+.layerPop a{display:block;}
+.layerPop img{max-width:100%;}
+.layerPop .btn{display:flex; justify-content:space-between; padding:13px 10px; background:#353535; text-align:left;}
+.layerPop .btn button{display:inline-block; margin-left:15px; background:none; color:#fff; font-size:13px;}
+.layerPop .btn button:last-child{float:right; margin:0 12px 0 0;}
+
+@media screen and (max-width:1080px){
+    .layerPop{left: 10svw !important;top:25svh !important;}
+} 

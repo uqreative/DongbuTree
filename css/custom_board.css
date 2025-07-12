@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 
+ * board, member, module Custom CSS Document - 디자인역할에 따라 프로그램관련 UI수정이 가능
+ * user write 주석부분에 새로운것을 선언해서 상쇄하고자 할경우 선언한다.
+ * 다른부분은 사용할만 부분을 미리 선언을 해둔것이다. 값은 지우고 다시 선언 하면된다.
+ *
+ */
+
+.marking {display: unset;}
+.marking:before {top: 2rem; color: #d04ac9;}
+input {height: 65rem !important; padding: 0 30rem !important; border-radius: 6rem !important; border: 1rem solid #e2e2e2 !important;}
+input::placeholder,
+textarea::placeholder {font-size: 18rem; font-weight: 300; color: #aaa;} 
+textarea {width: 100%; height: 320rem; margin: 0; padding: 18rem 30rem; border-radius: 6rem; border: 1rem solid #e2e2e2;}
+.button.lg {height: 65rem; border-radius: 6rem;}
+
+/* 로그인 */
+.join_area h3 {margin: 0;}
+.join_area p.join_area_txt {padding-top: 10rem; text-align: center;}
+.join_area .box.join {max-width: 500rem;}
+.join_area .box.join ul li {padding-top: 0;}
+.join_area .box.join ul li:nth-child(n+2) {padding-top: 14rem;}
+.join_area .box.join .btn_login {margin-top: 14rem; border-radius: 6rem; background-image: linear-gradient(to right, #e144c2 0%, #487cff 51%, #e144c2 100%); background-size: 200% auto; font-size: 20rem; font-weight: 600;}
+.join_area .box.join .btn_login:hover {background: #487cff;}
+.join_area .btn_area.social {margin-top: 10rem; justify-content: center;}
+.btn_area.social a {font-size: 16rem; font-weight: 400; color: #666;}
+.btn_area.social a:before {width: 2rem; height: 12rem; background: #ededed; border-radius: 0;}
+
+/* 회원가입 */
+.list-join [data-member-form="id"],
+.list-join [data-member-form="email"] {display: flex; align-items: center; justify-content: space-between;}
+.list-join [data-member-form="id"] input[type="text"],
+.list-join [data-member-form="email"] input[type="text"] {width: calc(100% - 172rem); flex: none;}
+.list-join [data-member-form="id"] .button,
+.list-join [data-member-form="email"] .button {width: 162rem; height: 65rem; border: 1rem solid #8b63e4; border-radius: 6rem;}
+.list-join [data-member-form="id"] .button span,
+.list-join [data-member-form="email"] .button span {font-size: 20rem; font-weight: 600; color: #8b63e4;}
+
+.list-join {display: block; padding-top: 0; margin-top: 0; border-top: 0;}
+.list-join li {padding: 0;}
+.list-join li:nth-child(n+2) {padding-top: 14rem;}
+.list-join input[type="text"], 
+.list-join input[type="password"], 
+.list-join input[type="number"], 
+.list-join input[type="email"], 
+.list-join select {height: 65rem; border-radius: 6rem; border: 1rem solid #e2e2e2;}
+.list-join li > div:not(.join__title) {margin-top: 0;}
+
+/* 버튼 */
+.join_area .btn_area {gap: 8rem;}
+.btn_area.ty2 {padding-bottom: 0;}
+.btn_area.ty4 input {width: 280rem;}
+.btn_area.mt0 {margin-top: 0;}
+.btn_area.mt30 {margin-top: 30rem;}
+.btn_area.mt80 {margin-top: 80rem;}
+.btn_area.custom input {width: 163rem;}
+.btn_area.custom :is(.button) {width: 163rem; height: 65rem; border-radius: 6rem;}
+.button {margin: 0;}
+.button.ty2 {width: 100%; height: 65rem; background-image: linear-gradient(to right, #e144c2 0%, #487cff 51%, #e144c2 100%); background-size: 200% auto; font-size: 20rem; font-weight: 600; color: #fff !important;}
+
+/* 내정보수정 비밀번호 확인 */
+.secret_area_btn {display: flex; justify-content: space-between; width: 50%; margin: 40rem auto 0;}
+.secret_area .button {width: 48.5%; height: 65rem !important; border-radius: 6rem;}
+.secret_area input[type="password"] {width: 100%;}
+.secret_area p {margin-bottom: 18rem;}
+
+.list-join .id-only {padding: 0 30rem; height: 65rem; border-radius: 6rem;}
+
+/* 문의하기 */
+.bbsSearch[data-type="A"] {justify-content: space-between; align-items: end; padding-bottom: 50rem;}
+.bbsSearch[data-type="A"] input[type=text] {height: 48rem !important; border: 0 !important; border-bottom: 1rem solid #ccc !important;}
+.bbsSearch[data-type="A"] .search_input .button {height: 44rem !important; border: 0 !important;}
+
+/* 달력 */
+.ui-datepicker .ui-datepicker-title select {padding: 0 3rem !important; background: var(--color-white, #fff) url(../../images/board/select_arrow02.svg) no-repeat calc(100% - 10rem) 50%; background-size: 12rem 6rem;}
+
+
+@media (max-width: 768px) {
+    .btn_area.ty2 {padding-top: 14rem !important;}
+}
+@media (max-width:480px) {
+    input {height: 55rem !important; padding: 0 13rem !important;}
+    input::placeholder,
+    textarea::placeholder {font-size: 15rem;}
+    textarea {padding: 13rem; height: 200rem;}
+    .button.lg {height: 55rem;}
+    .button.ty2 {font-size: 17rem;}
+
+    .join_area .box.join {width: 100%;}
+    .join_area .sub-tit {margin-bottom: 30rem;}
+    .join_area .box.join ul li:nth-child(n+2) {padding-top: 8rem;}
+    .join_area .box.join .btn_login {height: 55rem; margin-top: 8rem; font-size: 17rem;}
+    .btn_area.social a {font-size: 14rem;}
+    
+    .list-join [data-member-form="id"] .button, 
+    .list-join [data-member-form="email"] .button {width: 100rem; height: 55rem;}
+    .list-join [data-member-form="id"] .button span,
+    .list-join [data-member-form="email"] .button span {font-size: 16rem;}
+    .list-join [data-member-form="id"] input[type="text"],
+    .list-join [data-member-form="email"] input[type="text"] {width: calc(100% - 108rem);} 
+    .list-join li:nth-child(n+2) {padding-top: 8rem;}
+
+    .btn_area.mt80 {margin-top: 50rem;}
+
+    .secret_area_btn {width: 100%; margin: 20rem auto 0;}
+    .secret_area .button {height: 45rem !important;}
+
+    .list-join .id-only {padding: 0 13rem; height: 55rem;}
+    
+    .btn_area.custom {flex-direction: unset;}
+    .btn_area.custom :is(.button) {height: 55rem; width: 48.5%;}
+    .btn_area.custom input {width: 48.5%;}
+}

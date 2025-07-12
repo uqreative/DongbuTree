@@ -1,0 +1,188 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/*
+* base CSS Document
+*/
+
+/* 루트 설정 */
+:root{
+    --header-height: 100rem;
+    --inr-narrow: 1400;
+    --inr: 1600;
+    --inr-wide: 1920;
+    --inr-width: .92;
+    --primary: #0D933A;
+    --white: #fff;
+    --black: #000;
+    --blue : #233D4D;
+    --grey : #E1E1E1;
+    --dgrey : #444444;
+    --yellow : #FCCA46;
+    --lgrey : #E1E1E1;
+    --font : "Pretendard Variable", Pretendard, -apple-system, sans-serif;
+}
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.header-right {
+    flex: 1;
+    text-align: right;
+}
+
+.logout-button {
+    text-decoration: none;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c62828;
+}
+
+.sidebar {
+    background-color: #444;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+
+.sidebar-header {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #666;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 15px;
+    margin-top:20px;
+}
+.italic-small{
+    font-style: italic;
+}
+.menu-group {
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap; /* Prevents wrapping */
+}
+.menu-group a{
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.sub-menu{
+    list-style: none;
+}
+
+.sub-menu li{
+padding: 10px 0px 5px 15px;
+}
+
+.sub-menu > li:hover{
+    background-color: #555;
+}
+
+.menu-group{
+    font-size: 18px;
+}
+.menu-group > a{
+    font-size: 18px!important;
+}
+.menu-group > span {
+    font-style: italic;
+    /* display: block; Make span a block-level element */
+}
+
+.menu-group:first-child {
+    /* border-top: 1px solid #666; */
+}
+
+.menu a {
+    display: block;
+    /* padding: 10px 20px; */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+/* .menu a:hover {
+    background-color: #555;
+} */
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Existing CSS */
+
+.menu a.active {
+    background-color: #555; /* Warna latar belakang yang berbeda untuk menu yang aktif */
+    font-weight: bold; /* Tebalkan teks pada menu yang aktif */
+    color: #fff; /* Warna teks yang lebih terang untuk menu yang aktif */
+}
+
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+

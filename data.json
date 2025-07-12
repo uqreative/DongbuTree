@@ -1,0 +1,174 @@
+{
+    "gnb": {
+        "item1": {
+            "name": "회사소개",
+            "desc": "About Us",
+            "url": "/static/contents/01_about/sub01.html",
+            "visible": true,
+            "children": [
+                {"name": "인사말", "url": "/static/contents/01_about/sub01.html", "visible": true},
+                {"name": "경영이념", "url": "/static/contents/01_about/sub02.html", "visible": true},
+                {"name": "조직도", "url": "/static/contents/01_about/sub03.html", "visible": true},
+                {"name": "인증서", "url": "/static/contents/01_about/sub04.html", "visible": true},
+                {"name": "오시는길", "url": "/static/contents/01_about/sub05.html", "visible": true}
+            ]
+        },
+        "item2": {
+            "name": "제품소개",
+            "desc": "Product Introduction",
+            "url": "/static/contents/02_product/sub01.html",
+            "visible": true,
+            "children": [
+                {
+                    "name": "제품소개",
+                    "url": "/static/contents/02_product/sub01.html",
+                    "visible": true,
+                    "children": [
+                        {"name": "가정용 • 공업용", "url": "/static/contents/02_product/sub01.html", "visible": true},
+                        {"name": "소음방지용", "url": "/static/contents/02_product/sub02.html", "visible": true},
+                        {"name": "공고전문케이스용", "url": "/static/contents/02_product/sub03.html", "visible": true}
+                    ]
+                }
+            ]
+        },
+        "item3": {
+            "name": "E-Catalog",
+            "desc": "Product Catalog",
+            "url": "/static/contents/03_ecatalog/sub01.html",
+            "visible": true,
+            "children": []
+        },
+        "item4": {
+            "name": "고객센터",
+            "desc": "Customer Service Center",
+            "url": "/static/contents/04_service/sub01.html",
+            "visible": true,
+            "children": [
+                {"name": "문의사항", "url": "/static/contents/04_service/sub01.html", "visible": true,
+                "children": [
+                    {"name": "공지사항s", "url": "/static/contents/04_service/sub01_detail.html", "visible": false}
+                ]
+                },
+                {"name": "공지사항", "url": "/static/contents/04_service/sub02.html", "visible": true,
+                "children": [
+                    {"name": "공지사항s", "url": "/static/contents/04_service/sub02_detail.html", "visible": false}
+                ]
+                },
+                {"name": "FAQ", "url": "/static/contents/04_service/sub03.html", "visible": true}
+            ]
+        },
+        "item5": {
+            "name": "견적문의",
+            "desc": "Contact/Inquiry",
+            "url": "/static/contents/05_inquiry/sub01.html",
+            "visible": true,
+            "children": []
+        },
+        "item6": {
+            "name": "로그인",
+            "desc": "Member Login",
+            "url": "/login.html",
+            "visible": false,
+            "children": []
+        },
+        "item7": {
+            "name": "약관동의",
+            "desc": "Term & Condition",
+            "url": "/agree.html",
+            "visible": false,
+            "children": []
+        },
+        "item8": {
+            "name": "회원가입",
+            "desc": "Join Membership",
+            "url": "/join.html",
+            "visible": false,
+            "children": []
+        },
+        "item9": {
+            "name": "회원가입",
+            "desc": "Join Membership",
+            "url": "/member.html?mode=join",
+            "visible": false,
+            "children": []
+        }
+    },
+    
+    "lang": {
+        "show": true,
+        "option": {
+            "name": "KOR",
+            "url": "#",
+            "icon": "https://cdn-icons-png.flaticon.com/512/5320/5320914.png",
+            "children":[
+                {"name": "KOR", "url": "#kor", "icon" : "https://cdn-icons-png.flaticon.com/64/197/197582.png"},
+                {"name": "ENG", "url": "#eng", "icon" : "https://cdn-icons-png.flaticon.com/64/197/197374.png"},
+                {"name": "CHN", "url": "#chn", "icon" : "https://cdn-icons-png.flaticon.com/512/197/197375.png"},
+                {"name": "JPN", "url": "#jpn", "icon" : "https://cdn-icons-png.flaticon.com/512/197/197604.png"}
+            ]
+        }
+    },
+    "rbutton": {
+        "show": true,
+        "item1": {
+            "name": "로그인",
+            "url": "/login.html"
+        },
+        "item2" : {
+            "name": "로그 아웃",
+            "url": "#"
+        }
+    },
+    "search": {
+        "show": true
+    },
+    "fnav": {
+        "show":true,
+        "item1": {
+            "name": "회사소개",
+            "url": "#"
+        },
+        "item2": {
+            "name": "이용약관",
+            "url": "#"
+        },
+        "item3": {
+            "name": "개인정보처리방침",
+            "url": "#"
+        }
+    },
+    "ftxt": {
+        "show": true,
+        "item1": {
+            "name": "CEO",
+            "txt": "홍길동"
+        },
+        "item2": {
+            "name": "BUSINESS NUMBER",
+            "txt": "301-11-12345"
+        },
+        "item3": {
+            "name": "ADDRESS",
+            "txt": "서울특별시 강남구 강남동 강남리 12-345"
+        },
+        "item4": {
+            "name": "TEL",
+            "txt": "012-345-6789"
+        },
+        "item5": {
+            "name": "FAX",
+            "txt": "012-345-6788"
+        },
+        "item6": {
+            "name": "EMAIL",
+            "txt": "email@email.com"
+        }
+    },
+    "fcopy": {
+        "show": true,
+        "item1": {
+            "txt": "COPYRIGHT &copy; HALLATECH. ALL RIGHTS RESERVED. DESIGN BY KOWEB.",
+            "url": "#"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.content__head {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 480rem;
+  background-image: url("/images/sub/img_bg.jpg");
+  align-items: flex-end;
+  padding-bottom: 50rem;
+}
+@media (max-width: 767px) {
+  .content__head {
+    min-height: 380rem;
+  }
+}
+.content__head__br {
+  display: flex;
+}
+.content__head__br__title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+@media (max-width: 767px) {
+  .content__head__br__title {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+.content__head__br__title .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 20rem;
+  gap: 30rem;
+  border-left: 3rem solid var(--primary);
+}
+.content__head__br__title .title h1 {
+  font-size: var(--fs44);
+  font-weight: 700;
+}
+.content__head__br__title .title h3 {
+  font-size: var(--fs22);
+  font-weight: 300;
+}
+.content__head__br__title .br > ul {
+  display: flex;
+}
+.content__head__br__title .br > ul li a {
+  padding: 10rem 10rem;
+  display: flex;
+  gap: 10rem;
+}
+.content__head__br__title .br > ul li a .ph {
+  margin-top: 5rem;
+}
+
+.lnb {
+  width: 100%;
+  background-color: #233D4D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lnb > ul {
+  display: flex;
+}
+.lnb > ul > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: var(--fs18);
+  padding: 20rem 30rem;
+  transition: all 0.4s;
+}
+@media (max-width: 767px) {
+  .lnb > ul > li > a {
+    padding: 20rem 10rem;
+    font-size: var(--fs16);
+  }
+}
+.lnb > ul > li > a:hover {
+  color: #FCCA46;
+}
+.lnb > ul > li > a.active {
+  color: #FCCA46;
+}
+
+.content__text__title {
+  display: flex;
+  position: relative;
+  margin-top: 100rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.content__text__title h1 {
+  font-size: var(--fs42);
+  z-index: 1;
+}
+.content__text__title span {
+  position: absolute;
+  top: -130%;
+  font-size: 96rem;
+  font-weight: 900;
+  color: #F1F1F1;
+}
+@media (max-width: 767px) {
+  .content__text__title span {
+    font-size: 70rem;
+  }
+}
